@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-pjl",
+  "version": "1.0.0",
+  "description": "通用eslint配置",
+  "main": "index.js",
+  "scripts": {
+    "release": "npm version patch && npm publish --registry=https://registry.npmjs.org"
+  },
+  "keywords": [
+    "eslint",
+    "typescript",
+    "lint"
+  ],
+  "author": "peijunlei",
+  "license": "ISC",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "eslint": "^8.44.0"
+  }
+}
